@@ -1,0 +1,46 @@
+.navindex {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    .logonav {
+      position: absolute;
+      left: 18%;
+      width: 32px;
+      height: 32px;
+    }
+    h1 {
+      position: absolute;
+      left: 20%;
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+    }
+    li a {
+      display: flex;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      margin-top: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+    }
+    input {
+      position: absolute;
+      left: 29%;
+      width: 600px;
+      height: 50px;
+    }
+    .buscadorindex {
+      left: 450px;
+      border-radius: 5px;
+      border: 1px solid;
+    }
+    .menunav {
+      position: absolute;
+      top: 70px;
+      left: 700px;
+    }
+  }

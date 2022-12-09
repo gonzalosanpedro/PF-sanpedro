@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navindex {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.navindex .logonav {
+  position: absolute;
+  left: 18%;
+  width: 32px;
+  height: 32px;
+}
+.navindex h1 {
+  position: absolute;
+  left: 20%;
+}
+.navindex ul {
+  list-style-type: none;
+  display: flex;
+}
+.navindex li a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.navindex input {
+  position: absolute;
+  left: 29%;
+  width: 600px;
+  height: 50px;
+}
+.navindex .buscadorindex {
+  left: 450px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.navindex .menunav {
+  position: absolute;
+  top: 70px;
+  left: 700px;
+}
+
+.headerindex {
+  background-color: rgb(94, 91, 91);
+}
+.headerindex .imgindex {
+  padding-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+.headerindex .titulotarjetas {
+  display: flex;
+  padding: 10px;
+  margin-left: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headerindex .tarjetasindex {
+  display: flex;
+  margin-left: 290px;
+  margin-top: 50px;
+}
+.headerindex .tarjetaindexi9 {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+.headerindex .img-i9 {
+  margin-left: 8px;
+  width: 150px;
+  height: 150px;
+}
+.headerindex .i9-desc-index {
+  margin-left: 5px;
+}
+.headerindex .tarjetaindexmother {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  margin-left: 30px;
+}
+.headerindex .img-placamadreindex {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+}
+.headerindex .desc-placamadreindex {
+  margin-left: 10px;
+}
+.headerindex .tarjetaindexfuente {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  margin-left: 30px;
+}
+.headerindex .img-fuente {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+}
+.headerindex .tarjetaplacavideo {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  margin-left: 30px;
+}
+.headerindex .img-placa-de-video-index {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+}
+.headerindex .desc-placa-de-video-index {
+  text-align: center;
+}
+
+.titulofooter {
+  margin-left: 50px;
+  padding-top: 50px;
+  position: absolute;
+  left: 35px;
+}
+
+.logofooter {
+  position: relative;
+  margin-left: 50px;
+  padding-top: 50px;
+  width: 32px;
+  height: 32px;
+}
+
+.descfooter1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.descfooter2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 300px;
+  margin: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.descfooter {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.footer {
+  display: flex;
+}
+
+.info-contacto-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 155px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-contacto-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-contacto-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-contacto-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-contacto-4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inforedesfooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 155px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.redesfooter {
+  display: flex;
+  flex-direction: column;
+  width: 32px;
+  height: 32px;
+}
