@@ -24,7 +24,43 @@
         </div>
     </nav>
     <header class="headerindex">    
-            <img class="imgindex" src="./img/img-index.webp" alt="logo mundo gamer">
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="./img/img-carrusel-index.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="./img/img-carrusel-index2.webp">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="./img/img-carrusel-index3.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
             <h2 class="titulotarjetas">Tus marcas favoritas en mundo gamer</h2>
         <section class="tarjetasindex">    
             <div class="tarjetaindexi9">
@@ -49,7 +85,15 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="mainindex">
+        <h2 class="mejoratushabilidades">Mejora tus habilidades!</h2>
+        <div class="productosindex">
+            <section class="productosindex">
+                <img src="./img/img-producto-index-1.jpg" alt="" class="imgproductoindex1">
+                <img src="./img/img-producto-index2.jpg" alt="" class="imgproductoindex2">
+                <img src="./img/img-producto-index3.jpg" alt="" class="imgproductoindex3">
+            </section>
+        </div>
     </main>
     <aside></aside>
     <footer class="footer">
@@ -58,7 +102,7 @@
                 <h2 class="titulofooter">mundo gamer</h2>
                 <img class="logofooter" src="./img/mundo-gamer-iconov2.png" alt="">
             </div>
-            <p class="descfooter1">Somos la tienda de computación nacida con el propósito de satisfacer a todo jugador de PC Gamer</p>          
+            <p class="descfooter1">Somos la tienda de computación creada con el propósito de satisfacer a todo jugador de PC Gamer</p>          
              <p class="descfooter2">Estamos en el mundo de las computadoras, notebook gamer, hardware y periféricos como teclados, mouse y auriculares de grandes marcas como Logitech, Corsair, Hyperx, Razer y Redragon entre otras.</p>
         </div>
         <div class="info-contacto-footer">
