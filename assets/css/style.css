@@ -249,16 +249,12 @@
   margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .redesfooter {
   display: flex;
   flex-direction: column;
   width: 32px;
   height: 32px;
 }
-
-
-
 .slide {
   position: relative;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -402,11 +398,51 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
 }
+.textocentrodeayuda h1{
+  position:relative;
+  bottom:68px;
+}
 .textocentrodeayuda h2{
-  margin-top: 30px;
   color: rgb(84, 88, 90);
+  margin-right: 45px;
 }
 .textocentrodeayuda img{
   position:relative;
   right: 260px;
+}
+.iconoscentrodeayuda{
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 350px;
+  margin-left: 490px;
+  position: relative;
+  bottom: 40px;
+}
+.iconoscentrodeayuda img{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.infocentrodeayuda{
+  position: relative;
+  top: 107px;
+  right: 50px;
+  margin-left: 620px;
+}
+.horarios{
+  position: relative;
+  top: 76px;
+}
+.numero{
+  position: relative;
+  top: 140px
+}
+.whatsapp{
+  position: relative;
+  top: 210px;
+}
+.gmail{
+  position: relative;
+  top: 278px;
 }
