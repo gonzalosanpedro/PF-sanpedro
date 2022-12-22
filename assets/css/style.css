@@ -446,3 +446,50 @@
   position: relative;
   top: 278px;
 }
+.tituloform{
+  text-align: center;
+  margin-top: 410px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #4d4057;
+}
+.formulariodecontacto{
+ width: 1px;
+ position: relative;
+ left: 250px;
+ top: 80px;
+ margin-bottom: 20px;
+}
+.formulariodecontacto form input{
+  width: 400px;
+  height: 35px ;
+  border: none;
+  border-bottom: 1px solid #686868;
+  margin-top: 23px;
+}
+.formulariodecontacto form{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.texarea{
+  grid-column: 1/5;
+  position: relative;
+  margin-top: 20px;
+  height: 100px;  
+  left: 50px;
+}
+.formulariodecontacto label{
+  position: relative;
+  bottom: 13px;
+  left: 52px;
+  top: 4px;
+}
+.botonformulario{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  background-color: #666469;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 2px;
+  height: 30px;
+}
