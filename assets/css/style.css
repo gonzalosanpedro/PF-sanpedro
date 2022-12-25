@@ -753,9 +753,10 @@
  background-color: #eee;
 }
 .imgheaderperifericos{
-  width: 100%;
+  width: 1200px;
   height: 240px;
   margin-top: 65px;
+  margin-left: 135px;
 }
 .tarjetasperifericos{
   display: grid;
@@ -996,8 +997,9 @@
 }
 .img-componentes-header{
   height: 300px;
-  width: 100%;
-  margin-top: 70px;
+  width: 1300px;
+  margin-top: 60px;
+  margin-left: 70px;
 }
 .tarjetas-componentes1{
   width: 300px;
@@ -1172,7 +1174,7 @@
 }
 .tarjetas-componentes7 p{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .tarjetas-componentes8{
   width: 300px;
@@ -1222,7 +1224,7 @@
 }
 .tarjetas-componentes9 p{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .busquedacomponentes{
   position: relative;
