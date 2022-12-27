@@ -1,0 +1,225 @@
+.tarjetasproductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 405px;
+    margin-top: 30px;
+    grid-gap: 15px;
+    width: 910px;
+    .tarjetas-productos1{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetamemoriaram-productos img{
+        width: 200px;
+        height: 170px;
+        position: relative;
+        left: 55px;
+      }
+      .tarjetamemoriaram-productos h3 {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 100;
+      }
+      .tarjetamemoriaram-productos p{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .tarjetas-productos2{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos2 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 48px;
+        top: 30px;
+      }
+      .tarjetas-productos2 h3{
+        text-align: center;
+        margin-top: 70px;
+        font-weight: 100;
+      }
+      .tarjetas-productos2 p{
+        text-align: center;
+        margin-top: 40px;
+      }
+      .tarjetas-productos3{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos3 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos3 h3{
+        text-align: center;
+        margin-top: 69px;
+        font-weight: 100;
+      }
+      .tarjetas-productos3 p{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .tarjetas-productos4{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos4 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos4 h3{
+        text-align: center;
+        margin-top: 69px;
+        font-weight: 100;
+      }
+      .tarjetas-productos4 p{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .tarjetas-productos5{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos5 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos5 h3{
+        text-align: center;
+        margin-top: 69px;
+        font-weight: 100;
+      }
+      .tarjetas-productos5 p{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .tarjetas-productos6{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos6 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos6 h3{
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 100;
+      }
+      .tarjetas-productos6 p{
+        text-align: center;
+        margin-top: 5px;
+      }
+      .tarjetas-productos7{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos7 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos7 h3{
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 100;
+      }
+      .tarjetas-productos7 p{
+        text-align: center;
+        margin-top: 15px;
+      }
+      .tarjetas-productos8{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos8 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos8 h3{
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 100;
+      }
+      .tarjetas-productos8 p{
+        text-align: center;
+        margin-top: 33px;
+      }
+      .tarjetas-productos9{
+        width: 300px;
+        height: 340px;
+        cursor: default;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: solid 1px;
+      }
+      .tarjetas-productos9 img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 52px;
+      }
+      .tarjetas-productos9 h3{
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 100;
+      }
+      .tarjetas-productos9 p{
+        text-align: center;
+        margin-top: 33px;
+      }
+  }
